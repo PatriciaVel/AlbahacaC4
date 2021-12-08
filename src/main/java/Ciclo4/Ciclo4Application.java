@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class Ciclo4Application implements CommandLineRunner{
     @Autowired
     private InterfaceVegetarian interfaceVegetarian;
-    @Autowired
+    @Autowired  
     private InterfaceUser interfaceUser;
 
     public static void main(String[] args) {
